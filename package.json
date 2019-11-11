@@ -1,5 +1,5 @@
 {
-  "name": "cz-conventional-changelog",
+  "name": "cz-conventional-changelog-forked-sc",
   "version": "0.0.0-semantically-released.0",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
-    "commitizen": "^4.0.3",
+    "commitizen-forked-sc": "0.0.0-semantically-released",
     "conventional-commit-types": "^2.0.0",
     "lodash.map": "^4.5.1",
     "longest": "^2.0.1",
@@ -44,7 +44,7 @@
     "@commitlint/load": ">6.1.1"
   },
   "config": {
-    "commitizen": {
+    "commitizen-forked-sc": {
       "path": "./index.js"
     }
   }

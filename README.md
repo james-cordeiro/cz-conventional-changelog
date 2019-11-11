@@ -1,3 +1,7 @@
+# FORK
+
+This is a fork which only updates the package.json to use a forked commitizen lib, `commitizen-forked-sc`. This lib should be easily kept up to date with the source repo
+
 # cz-conventional-changelog
 
 Status:
@@ -17,25 +21,25 @@ Like commitizen, you specify the configuration of cz-conventional-changelog thro
 {
 // ...  default values
     "config": {
-        "commitizen": {      
+        "commitizen": {
             "path": "./node_modules/cz-conventional-changelog",
             "maxHeaderWidth": 100,
             "maxLineWidth": 100,
             "defaultType": "",
-            "defaultScope": "",        
+            "defaultScope": "",
             "defaultSubject": "",
             "defaultBody": "",
             "defaultIssues": ""
         }
     }
-// ...    
+// ...
 }
-``` 
+```
 ### Environment variables
 
 The following environment varibles can be used to override any default configuration or package.json based configuration.
 
-* CZ_TYPE = defaultType 
+* CZ_TYPE = defaultType
 * CZ_SCOPE = defaultScope
 * CZ_SUBJECT = defaultSubject
 * CZ_BODY = defaultBody
