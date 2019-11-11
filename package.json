@@ -1,6 +1,6 @@
 {
-  "name": "cz-conventional-changelog-forked-sc",
-  "version": "1.0.0",
+  "name": "conventional-changelog-sc",
+  "version": "1.0.1",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
   "engines": {
     "node": ">= 10"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
